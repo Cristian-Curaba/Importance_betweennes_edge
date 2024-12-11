@@ -15,7 +15,7 @@ This project demonstrates how to compute edge betweenness centrality on a weight
 
 - **paper_graph.xlsx**: Contains the graph’s edges, sources, targets, and weights.
 - **paper_node_importance.xlsx**: Contains each node’s importance value.
-- **importance_betw_edge.py**: Main script that:
+- **main_importance_betw_edge.py**: Main script that:
 
   - Reads the graph and importance data.
   - Computes standard and custom (importance-based) edge betweenness.
