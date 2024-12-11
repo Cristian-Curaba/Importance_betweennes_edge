@@ -126,7 +126,7 @@ def main():
 
     # Create a figure and axes for plotting
     fig, ax = plt.subplots(figsize=(10, 7))
-    pos = nx.circular_layout(G)
+    pos = nx.spring_layout(G)
 
     nx.draw_networkx_nodes(G, pos, node_color='lightgray', node_size=500, edgecolors='black', ax=ax)
     nx.draw_networkx_labels(G, pos, font_color='black', ax=ax)
